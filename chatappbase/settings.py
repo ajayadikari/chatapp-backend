@@ -65,6 +65,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://remarkable-genie-700698.netlify.app/'
 ]
 
 AUTH_USER_MODEL = 'user.UserModel'
