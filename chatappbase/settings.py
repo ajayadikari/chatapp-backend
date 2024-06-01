@@ -66,7 +66,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'https://remarkable-genie-700698.netlify.app/', 
-    'chatbeam.top'
+    'https://chatbeam.top'
 ]
 
 AUTH_USER_MODEL = 'user.UserModel'
