@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure--5du&#l_#-5jybad56xm9-ow_yqb2+7v=8_#vm5j6x=aejkio5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["remarkable-genie-700698.netlify.app", "13.234.50.61"]
+ALLOWED_HOSTS = ["remarkable-genie-700698.netlify.app", "13.234.50.61", 'https://remarkable-genie-700698.netlify.app/', 
+'https://chatbeam.top']
 
 FOLDER_PATH = os.path.dirname(os.path.basename(os.path.abspath(__file__)))
 MEDIA_ROOT = os.path.join(FOLDER_PATH, 'media')
