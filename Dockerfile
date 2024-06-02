@@ -6,11 +6,9 @@ COPY requirements.txt /chatapp/
 
 COPY . /chatapp/
 
-RUN apt-get update \
-    && apt-get install -y python3-pip \
-    && pip install --no-cache-dir -r requirements.txt \
-    && python3 manage.py makemigrations \
-    && python3 manage.py migrate
+RUN apt-get update && \
+    apt-get install -y python3-pip && \ 
+    pip install -r requirements.txt
 
 EXPOSE 8000
 
