@@ -8,7 +8,9 @@ COPY . /chatapp/
 
 RUN apt-get update && \
     apt-get install -y python3-pip && \ 
-    pip install -r requirements.txt
+    pip install -r requirements.txt && \
+    py manage.py makemigrations && \
+    py manage.py migrate
 
 EXPOSE 8000
 
